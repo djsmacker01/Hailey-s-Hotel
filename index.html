@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+  <header>
+        <div class="header-container">
+            <div class="logo">Hailey's <span>Hotel</span></div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Amenities</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- <img src="images/Hailey hotel.jpeg" alt=""> -->
+        <h1>Experience Timeless Comfort</h1>
+        <p>Serving our community with exceptional hospitality for nearly five decades</p>
+    </section>
+
+    <!-- Booking Form -->
+    <div class="booking-container">
+        <form class="booking-form" id="searchForm">
+            <div class="form-group">
+                <label for="check-in">Check In</label>
+                <input type="date" id="check-in" name="check-in" required>
+            </div>
+            <div class="form-group">
+                <label for="check-out">Check Out</label>
+                <input type="date" id="check-out" name="check-out" required>
+            </div>
+            <div class="form-group">
+                <label for="guests">Guests</label>
+                <select id="guests" name="guests">
+                    <option value="1">1 Guest</option>
+                    <option value="2" selected>2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="5">5+ Guests</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Room Type</label>
+                <select id="room-type" name="room-type">
+                    <option value="any">Any Room</option>
+                    <option value="standard">Standard Room</option>
+                    <option value="deluxe">Deluxe Room</option>
+                    <option value="suite">Suite</option>
+                    <option value="family">Family Room</option>
+                </select>
+            </div>
+            <button type="submit" class="search-btn">Search Rooms</button>
+        </form>
+    </div>
+
+    <!-- Room Results -->
+    <section class="room-results" id="roomResults">
+        <h2>Available Accommodations</h2>
+        <div class="rooms-container" id="roomsContainer">
+            <!-- Room cards will be dynamically added here by JS -->
+        </div>
+    </section>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h2>Confirm Your Booking</h2>
+            <div class="confirmation-details" id="confirmationDetails">
+                <!-- Booking details will be added here by JS -->
+            </div>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <button type="submit" class="confirm-btn">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Hailey's Hotel</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Amenities</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Rooms & Suites</h3>
+                <ul>
+                    <li><a href="#">Standard Rooms</a></li>
+                    <li><a href="#">Deluxe Rooms</a></li>
+                    <li><a href="#">Suites</a></li>
+                    <li><a href="#">Family Rooms</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="#">1234 Hotel Drive</a></li>
+                    <li><a href="#">Flat Dominos Pizza, United Kingdom 12345</a></li>
+                    <li><a href="#">info@haileyshotel.com</a></li>
+                    <li><a href="#">(+44)7459253102</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">TripAdvisor</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Hailey's Hotel. All rights reserved.
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
