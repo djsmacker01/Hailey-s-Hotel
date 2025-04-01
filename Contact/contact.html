@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hailey's Hotel - Contact Us</title>
+    <link rel="stylesheet" href="/Contact/style.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">Hailey's <span>Hotel</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Amenities</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="/Contact/contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title">
+        <h1>Contact Us</h1>
+        <p>Have questions or need assistance? We're here to help!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <div class="contact-section">
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+            <h2>Send Us a Message</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject">
+                        <option value="booking">Booking Inquiry</option>
+                        <option value="information">General Information</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="info-item">
+                <h3>Address</h3>
+                <p>1234 Hotel Drive</p>
+                <p>Anytown, US 12345</p>
+            </div>
+            <div class="info-item">
+                <h3>Phone</h3>
+                <p>Front Desk: (555) 123-4567</p>
+                <p>Reservations: (555) 123-4568</p>
+            </div>
+            <div class="info-item">
+                <h3>Email</h3>
+                <p>info@haileyshotel.com</p>
+                <p>reservations@haileyshotel.com</p>
+            </div>
+            <div class="info-item">
+                <h3>Hours</h3>
+                <p>Front Desk: 24/7</p>
+                <p>Reservations: 8:00 AM - 10:00 PM</p>
+            </div>
+            <div class="info-item">
+                <h3>Connect With Us</h3>
+                <p>Follow us on social media for updates and special offers.</p>
+            </div>
+        </div>
+    </div>
+
+   
+    <!-- Map Section -->
+    <div class="map-container">
+        <h2>Find Us</h2>
+        <div class="map" id="map">
+            <!-- In a real application, you would embed a Google Map or similar here -->
+            <p>Map would be displayed here</p>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Hailey's Hotel</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Amenities</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Rooms & Suites</h3>
+                <ul>
+                    <li><a href="#">Standard Rooms</a></li>
+                    <li><a href="#">Deluxe Rooms</a></li>
+                    <li><a href="#">Suites</a></li>
+                    <li><a href="#">Family Rooms</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="#">1234 Hotel Drive</a></li>
+                    <li><a href="#">Anytown, US 12345</a></li>
+                    <li><a href="#">info@haileyshotel.com</a></li>
+                    <li><a href="#">(555) 123-4567</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">TripAdvisor</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Hailey's Hotel. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of the hotel (replace with actual coordinates)
+            const hotelLocation = { lat: 40.7128, lng: -74.0060 }; // This is NYC, replace with your hotel's location
+
+            // The map, centered at the hotel location
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: hotelLocation,
+            });
+
+            // The marker, positioned at the hotel location
+            const marker = new google.maps.Marker({
+                position: hotelLocation,
+                map: map,
+                title: "Hailey's Hotel"
+            });
+
+            // Optional: Add an info window
+            const infowindow = new google.maps.InfoWindow({
+                content: "<strong>Hailey's Hotel</strong><br>1234 Hotel Drive<br>Anytown, US 12345"
+            });
+
+            marker.addListener("click", () => {
+                infowindow.open(map, marker);
+            });
+        }
+    </script>
+    
+    <!-- Load the Google Maps JavaScript API with your API key -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+</body>
+
+</html>
