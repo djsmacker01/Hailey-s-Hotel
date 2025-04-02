@@ -1,10 +1,8 @@
-
-        // Add event listeners to Book Now buttons
-        const bookButtons = document.querySelectorAll('.book-now-btn');
-        bookButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                // Redirect to home page with booking form
-                window.location.href = 'index.html';
-            });
+// Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navMenu = document.getElementById('nav-menu');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
         });
     
