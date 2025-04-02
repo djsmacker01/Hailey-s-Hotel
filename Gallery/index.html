@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hailey's Hotel - Gallery</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">Hailey's <span>Hotel</span></div>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">☰</button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#roomResults">Rooms</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Photo Gallery</h1>
+        <p>Experience our hotel through our carefully curated collection of images</p>
+    </section>
+    
+    <!-- Gallery Content -->
+    <div class="gallery-container">
+        <h2 class="section-title">Explore Our Hotel</h2>
+    
+        <div class="gallery-categories">
+            <button class="category-btn active" data-category="all">All Photos</button>
+            <button class="category-btn" data-category="rooms">Rooms & Suites</button>
+            <button class="category-btn" data-category="dining">Dining</button>
+            <button class="category-btn" data-category="amenities">Amenities</button>
+            <button class="category-btn" data-category="events">Events & Meetings</button>
+        </div>
+    
+        <div class="gallery-grid" id="galleryGrid">
+            <!-- Rooms & Suites -->
+            <div class="gallery-item" data-category="rooms">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Standard Room">
+                <div class="gallery-caption">Standard Double Room</div>
+            </div>
+            <div class="gallery-item" data-category="rooms">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Deluxe Room">
+                <div class="gallery-caption">Deluxe Queen Room</div>
+            </div>
+            <div class="gallery-item" data-category="rooms">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Executive Suite">
+                <div class="gallery-caption">Executive Suite</div>
+            </div>
+            <div class="gallery-item" data-category="rooms">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Family Room">
+                <div class="gallery-caption">Family Room</div>
+            </div>
+            <div class="gallery-item" data-category="rooms">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Bathroom">
+                <div class="gallery-caption">Luxury Bathroom</div>
+            </div>
+            <div class="gallery-item" data-category="rooms">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Room View">
+                <div class="gallery-caption">Room with a View</div>
+            </div>
+    
+            <!-- Dining -->
+            <div class="gallery-item" data-category="dining">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Restaurant">
+                <div class="gallery-caption">The Coastal Restaurant</div>
+            </div>
+            <div class="gallery-item" data-category="dining">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Breakfast Buffet">
+                <div class="gallery-caption">Breakfast Buffet</div>
+            </div>
+            <div class="gallery-item" data-category="dining">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Lobby Café">
+                <div class="gallery-caption">Lobby Café & Bar</div>
+            </div>
+            <div class="gallery-item" data-category="dining">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Private Dining">
+                <div class="gallery-caption">Private Dining Room</div>
+            </div>
+    
+            <!-- Amenities -->
+            <div class="gallery-item" data-category="amenities">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Pool">
+                <div class="gallery-caption">Outdoor Pool</div>
+            </div>
+            <div class="gallery-item" data-category="amenities">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Gym">
+                <div class="gallery-caption">Fitness Center</div>
+            </div>
+            <div class="gallery-item" data-category="amenities">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Spa">
+                <div class="gallery-caption">Spa & Wellness</div>
+            </div>
+            <div class="gallery-item" data-category="amenities">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Lobby">
+                <div class="gallery-caption">Hotel Lobby</div>
+            </div>
+    
+            <!-- Events & Meetings -->
+            <div class="gallery-item" data-category="events">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Meeting Room">
+                <div class="gallery-caption">Conference Room</div>
+            </div>
+            <div class="gallery-item" data-category="events">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Wedding Venue">
+                <div class="gallery-caption">Wedding Reception</div>
+            </div>
+            <div class="gallery-item" data-category="events">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Banquet Hall">
+                <div class="gallery-caption">Grand Banquet Hall</div>
+            </div>
+            <div class="gallery-item" data-category="events">
+                <img class="gallery-img" src="/api/placeholder/600/400" alt="Outdoor Event">
+                <div class="gallery-caption">Outdoor Event Space</div>
+            </div>
+        </div>
+    
+        <div class="book-now-container">
+            <a href="index.html#roomResults" class="book-now-btn">Book Your Stay Now</a>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="modalCaption" class="modal-caption"></div>
+        <div class="modal-nav">
+            <button id="prevImage">&#10094;</button>
+            <button id="nextImage">&#10095;</button>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-container">
+            <div>
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>123 Oceanview Drive</li>
+                    <li>Beachside, CA 90210</li>
+                    <li>Phone: (555) 123-4567</li>
+                    <li>Email: info@haileyshotel.com</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#roomResults">Rooms</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for special deals and updates</p>
+                <form action="#" method="post" id="newsletterForm">
+                    <input type="email" name="email" placeholder="Your Email" required
+                        style="padding: 8px; margin-top: 10px; width: 100%; border-radius: 4px; border: none;">
+                    <button type="submit"
+                        style="background-color: #f8c15c; color: #1a3a5f; border: none; padding: 8px 15px; margin-top: 10px; border-radius: 4px; cursor: pointer; font-weight: 600;">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Hailey's Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
