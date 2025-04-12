@@ -18,6 +18,48 @@ This website provides significant value to users by:
 - **Special Offers Access**: Users can discover exclusive deals and packages available only through our website.
 - **Virtual Tours**: Interactive gallery allows potential guests to explore the hotel before their stay.
 
+
+## User Experience (UX)
+
+### Business Goals
+
+As the owner of Hailey's Hotel, our primary business goals are:
+
+- To provide clear and comprehensive information about our luxury accommodations, including room types, amenities, pricing, and the unique benefits we offer.
+- To encourage potential guests to book directly through our website by offering a seamless and convenient online reservation system.
+- To showcase the quality and elegance of our hotel, emphasizing our ability to provide exceptional hospitality and unforgettable stays.
+- To establish a strong online presence, increasing brand recognition and attracting a wider audience of travelers seeking premium accommodations.
+
+### User Goals
+
+As users of the Hailey's Hotel website, our goals are to:
+
+- Easily navigate the website and find relevant information about room options, amenities, pricing details, and guest testimonials.
+- Seamlessly navigate between different pages and easily return to the home screen with a single click, ensuring a smooth browsing experience.
+- Access the main navigation menu conveniently, whether at the top or bottom of the page, allowing quick and effortless exploration of various sections of the website.
+- Enjoy a responsive design that adapts to different screen sizes, ensuring all information and images are easily viewable on desktops, tablets, and mobile devices.
+- View high-quality images that showcase the hotel's rooms, facilities, and surroundings, helping users visualize their potential stay.
+
+### User Stories
+
+#### As the business owner, I aim to:
+
+- Establish a strong online presence for Hailey's Hotel and expand our guest base by reaching travelers seeking luxury accommodations.
+- Inform potential guests about our premium facilities, including our elegantly designed rooms, fine dining options, and exceptional service.
+- Provide a clear and efficient booking system for guests to reserve rooms directly, maximizing our direct bookings and reducing dependency on third-party platforms.
+
+#### As a general user/customer of the website, I want to:
+
+- Find detailed information about the various room types offered by Hailey's Hotel, including amenities, views, space, and pricing options.
+- Easily access essential details such as location, contact information, and check-in/check-out times to plan my stay effectively.
+- Explore the gallery section, showcasing the hotel's interiors, exteriors, and surrounding attractions to help me make an informed decision.
+
+#### As a new user, I want to:
+
+- Understand the unique qualities that set Hailey's Hotel apart from other accommodations, such as its exclusive services, premium location, or historical significance.
+- Learn more about the facilities available at Hailey's Hotel, including restaurants, spa services, business centers, and recreational options.
+- Have access to guest reviews and testimonials, validating the quality and service excellence of Hailey's Hotel.
+
 ## Project Structure
 
 ```
