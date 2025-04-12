@@ -6,6 +6,8 @@
 
 Hailey's Hotel website is a comprehensive digital platform designed to showcase our luxury accommodations and provide a seamless booking experience for potential guests. This project aims to increase online bookings, highlight the hotel's premium amenities, and establish a strong digital presence that reflects the elegance and quality of our physical locations.
 
+Hailey's Hotel site is currently live, the link can be found <a href="https://haileyhotel.netlify.app/" target="_blank" rel="noopener noreferrer">Here</a>
+
 ## Value for Users
 
 This website provides significant value to users by:
