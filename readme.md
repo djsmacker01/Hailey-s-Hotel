@@ -180,6 +180,22 @@ haileys-hotel/
 
 *The mobile-friendly design addresses the user story: "As a mobile user, I want the website to be responsive so that I can browse and book rooms from my smartphone." All content adjusts appropriately for smaller screens while maintaining functionality.*
 
+## Technologies Used
+
+### Languages Used
+- HTML5
+- CSS3
+- JavaScript
+
+### Frameworks, Libraries & Programs Used
+- Google Fonts: Used to import Playfair Display, Montserrat, and Open Sans fonts
+- Font Awesome: Used for icons throughout the website
+- Git: Used for version control with regular commits
+- GitHub: Used as repository for the project code
+- Adobe Photoshop: Used for editing and optimizing images
+- Figma: Used to create wireframes and mockups during the design process
+- Visual Studio Code: Used as the primary code editor
+
 ## External Code Attribution
 
 ### CSS Reset
