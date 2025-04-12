@@ -68,7 +68,7 @@ haileys-hotel/
 
 ### Homepage Hero Section
 
-![Homepage Hero Section](images/screenshots/homepage-hero.jpg)
+![Homepage Hero Section](images/Hailey.jpeg)
 
 *The homepage hero section fulfills the user story: "As a potential guest, I want to see high-quality images of the hotel so that I can visualize my stay." The full-width slider showcases our most impressive hotel views with a clear call-to-action for booking.*
 
