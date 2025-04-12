@@ -8,17 +8,6 @@ Hailey's Hotel website is a comprehensive digital platform designed to showcase 
 
 Hailey's Hotel site is currently live, the link can be found <a href="https://haileyhotel.netlify.app/" target="_blank" rel="noopener noreferrer">Here</a>
 
-## Value for Users
-
-This website provides significant value to users by:
-
-- **Simplified Booking Process**: Users can easily check availability and make reservations directly through the website.
-- **Comprehensive Information**: Detailed descriptions and high-quality images of rooms, amenities, and services help users make informed decisions.
-- **Mobile-Friendly Design**: Responsive layout ensures a seamless experience across all devices, allowing users to book on-the-go.
-- **Special Offers Access**: Users can discover exclusive deals and packages available only through our website.
-- **Virtual Tours**: Interactive gallery allows potential guests to explore the hotel before their stay.
-
-
 ## User Experience (UX)
 
 ### Business Goals
@@ -97,6 +86,19 @@ The following fonts have been used:
 - Header Background: #ffffff with transparent overlay
 - Active Navigation: #f7c331
 - Hover Effect in Buttons and Links: #f7c331
+
+## Value for Users
+
+This website provides significant value to users by:
+
+- **Simplified Booking Process**: Users can easily check availability and make reservations directly through the website.
+- **Comprehensive Information**: Detailed descriptions and high-quality images of rooms, amenities, and services help users make informed decisions.
+- **Mobile-Friendly Design**: Responsive layout ensures a seamless experience across all devices, allowing users to book on-the-go.
+- **Special Offers Access**: Users can discover exclusive deals and packages available only through our website.
+- **Virtual Tours**: Interactive gallery allows potential guests to explore the hotel before their stay.
+
+
+
 
 ## Project Structure
 
