@@ -114,7 +114,6 @@ haileys-hotel/
 
 ![Homepage Hero Section](images/Hailey.jpeg)
 
-*The homepage hero section fulfills the user story: "As a potential guest, I want to see high-quality images of the hotel so that I can visualize my stay." The full-width slider showcases our most impressive hotel views with a clear call-to-action for booking.*
 *The home page features an elegant and sophisticated design, with a hero slider showcasing the hotel's most impressive views and a prominent "Book Now" call-to-action button. The navigation menu is fixed at the top of the page to improve user experience and ensure easy navigation throughout the site.*
 
 ### Room Listings
