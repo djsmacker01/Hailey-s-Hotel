@@ -147,6 +147,7 @@ haileys-hotel/
 │
 └── README.md            # Project documentation
 ```
+![Hotel Project Structure](assets/Hotel.drawio)
 
 ## Implementation Screenshots
 
