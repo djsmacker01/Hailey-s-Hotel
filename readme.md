@@ -60,6 +60,44 @@ As users of the Hailey's Hotel website, our goals are to:
 - Learn more about the facilities available at Hailey's Hotel, including restaurants, spa services, business centers, and recreational options.
 - Have access to guest reviews and testimonials, validating the quality and service excellence of Hailey's Hotel.
 
+
+### Design of the Website
+
+The website has been divided into 5 different pages:
+
+#### Home Page
+The home page features an elegant and sophisticated design, with a hero slider showcasing the hotel's most impressive views and a prominent "Book Now" call-to-action button. The navigation menu is fixed at the top of the page to improve user experience and ensure easy navigation throughout the site.
+
+#### Rooms & Suites
+This page provides detailed information about the different accommodation options that the hotel offers. It includes descriptions, high-quality images, amenity lists, and pricing for each room type, allowing users to compare options and select the one that best suits their needs.
+
+#### Amenities
+The amenities page highlights all the facilities and services available at Hailey's Hotel, including restaurants, spa, fitness center, business services, and concierge assistance. Each amenity is presented with descriptive text and supporting images that convey the luxury experience guests can expect.
+
+#### Gallery
+The photo gallery page displays a curated selection of images from throughout the hotel property. The images are presented in a responsive grid layout and can be clicked to open in a lightbox viewer for a closer look. The page includes filtering options to help users find specific areas of interest (e.g., rooms, dining, exteriors).
+
+#### Contact & Booking
+The contact and booking page features an intuitive reservation form with fields for check-in/check-out dates, number of guests, room preferences, and special requests. The form includes validation to ensure all required information is provided correctly before submission. Additional contact information and a map showing the hotel's location are also included.
+
+### Fonts
+
+The following fonts have been used:
+
+- Playfair Display (for headings and accents)
+- Montserrat (for navigation and buttons)
+- Open Sans (for body text)
+
+### Colors
+
+- Primary: #0e4c92 (deep blue)
+- Secondary: #f7c331 (gold accent)
+- Tertiary: #2c3e50 (dark navy)
+- Footer Background: #1a2a3a
+- Header Background: #ffffff with transparent overlay
+- Active Navigation: #f7c331
+- Hover Effect in Buttons and Links: #f7c331
+
 ## Project Structure
 
 ```
