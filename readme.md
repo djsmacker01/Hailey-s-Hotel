@@ -1,6 +1,6 @@
 # Hailey's Hotel Website
 
-![Hailey's Hotel Logo](images/pool.jpg)
+![Hailey's Hotel Logo](images/ui.png)
 
 ## Project Overview
 
