@@ -147,7 +147,10 @@ haileys-hotel/
 │
 └── README.md            # Project documentation
 ```
-![Hotel Project Structure](assets/Hotel.drawio)
+<!-- ![Hotel Project Structure](assets/Hotel.drawio) -->
+![Structure Diagram](assets/diagram.png)  
+👉 [View editable version](https://viewer.diagrams.net/?url=https://raw.githubusercontent.com/...)
+
 
 ## Implementation Screenshots
 
