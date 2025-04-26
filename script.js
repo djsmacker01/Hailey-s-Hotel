@@ -76,11 +76,11 @@ document.querySelectorAll("nav ul li a").forEach((link) => {
 
 // Close mobile menu when clicking outside
 document.addEventListener("click", (e) => {
-  if (
-    !e.target.closest(".menu-toggle") &&
-    !e.target.closest("nav") &&
-    mainNav.classList.contains("active")
-  ) {
+  const isMenuToggle = e.target.closest(".menu-toggle");
+  const isNav = e.target.closest("nav");
+  const isMenuActive = mainNav.classList.contains("active");
+
+  if (isMenuActive && !(isMenuToggle || isNav)) {
     mainNav.classList.remove("active");
   }
 });
@@ -215,7 +215,9 @@ function calculateNights(checkIn, checkOut) {
 
 // Open booking modal with selected room details
 function openBookingModal() {
-  if (!selectedRoom) return;
+  if (!selectedRoom) {
+    return;
+  }
 
   checkInDate = document.getElementById("check-in").value;
   checkOutDate = document.getElementById("check-out").value;
@@ -275,7 +277,8 @@ bookingForm.addEventListener("submit", (e) => {
   const email = document.getElementById("email").value;
   const phone = document.getElementById("phone").value;
 
-  if (!name || !email || !phone) {
+  const hasEmptyFields = [name, email, phone].some((field) => !field);
+  if (hasEmptyFields) {
     showToast("Please fill in all required fields");
     return;
   }
