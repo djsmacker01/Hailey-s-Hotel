@@ -162,7 +162,7 @@ haileys-hotel/
 
 ### Room Listings
 
-![Room Listings](images/room_listing.png)
+![Room Listings](images/roomPage.png)
 
 *This section addresses the user story: "As a potential guest, I want to browse different room types with pricing information so that I can choose accommodations that fit my budget and preferences." Each room card includes images, detailed descriptions, amenities, and pricing with a direct booking button.*
 
