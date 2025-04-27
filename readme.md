@@ -201,7 +201,7 @@ CSS <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener norefer
 ![Mobile View](images/css5.png)
 
 ## User Stories Testing
-. Clear and intuitive navigation across the website, with the current page clearly highlighted.
+- Clear and intuitive navigation across the website, with the current page clearly highlighted.
 ![Mobile View](images/st1.png)
 
 
