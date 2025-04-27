@@ -210,6 +210,9 @@ CSS <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener norefer
 - Validation form.
 ![Mobile View](images/validation1.png)
 
+- Email validation
+![Mobile View](images/emailValidation.png)
+
 
 
 
