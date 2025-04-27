@@ -204,6 +204,10 @@ CSS <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener norefer
 - Clear and intuitive navigation across the website, with the current page clearly highlighted.
 ![Mobile View](images/st1.png)
 
+- Links to the company's social media profiles.
+![Mobile View](images/footer.png)
+
+
 
 
 
