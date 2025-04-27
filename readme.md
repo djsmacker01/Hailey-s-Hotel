@@ -184,6 +184,10 @@ haileys-hotel/
 
 *The mobile-friendly design addresses the user story: "As a mobile user, I want the website to be responsive so that I can browse and book rooms from my smartphone." All content adjusts appropriately for smaller screens while maintaining functionality.*
 
+
+## Testing
+
+
 ## Technologies Used
 
 ### Languages Used
