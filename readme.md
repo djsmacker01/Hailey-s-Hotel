@@ -207,7 +207,8 @@ CSS <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener norefer
 - Links to the company's social media profiles.
 ![Mobile View](images/footer.png)
 
-
+- Validation form.
+![Mobile View](images/validation1.png)
 
 
 
