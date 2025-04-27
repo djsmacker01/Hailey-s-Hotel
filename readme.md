@@ -191,6 +191,8 @@ HTML <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener norefe
 ![Mobile View](images/index2.png)
 ![Mobile View](images/index3.png)
 ![Mobile View](images/Gallery.png)
+![Mobile View](images/contact.png)
+
 
 
 
