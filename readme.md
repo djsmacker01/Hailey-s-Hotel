@@ -193,6 +193,8 @@ HTML <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener norefe
 ![Mobile View](images/Gallery.png)
 ![Mobile View](images/contact.png)
 
+CSS <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener noreferrer">Validator</a> was run several times during the project and picked up small syntax errors which were corrected. At the time of submission the css code successfully passed the validator with no errors.
+
 
 
 
