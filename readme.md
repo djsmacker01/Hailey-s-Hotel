@@ -174,7 +174,7 @@ haileys-hotel/
 
 ### Amenities Section
 
-![Amenities Section](images/amentittes.png)
+![Amenities Section](images/Amenities.png)
 
 *This section satisfies the user story: "As a potential guest, I want to learn about the hotel's amenities so that I can determine if it meets my needs." The grid layout with icons and descriptions clearly displays all available amenities.*
 
