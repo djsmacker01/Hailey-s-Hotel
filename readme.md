@@ -168,7 +168,7 @@ haileys-hotel/
 
 ### Booking System
 
-![Booking System](images/screenshots/booking-form.jpg)
+![Booking System](images/booking_page.png)
 
 *The booking form implements the user story: "As a potential guest, I want to check room availability for specific dates so that I can plan my stay accordingly." The form includes date selection, guest count options, and real-time availability checking.*
 
