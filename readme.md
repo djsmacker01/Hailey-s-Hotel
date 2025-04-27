@@ -186,7 +186,7 @@ haileys-hotel/
 
 
 ## Testing
-HTML <a href="https://haileyhotel.netlify.app/" target="_blank" rel="noopener noreferrer">Validator</a>  was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
+HTML <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener noreferrer">Validator</a>  was run at several points during the project and small syntax errors identified were fixed. At the final stage no errors or warnings were found.
 ![Mobile View](images/index1.png)
 
 
