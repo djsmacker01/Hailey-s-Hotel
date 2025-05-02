@@ -16,7 +16,7 @@ const rooms = [
     price: 149,
     maxGuests: 2,
     features: ["Free WiFi", "TV", "AC", "Mini Bar", "Coffee Machine"],
-    image: "images/double bed.jpg",
+    image: "images/doublebed.jpg",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ const rooms = [
     price: 199,
     maxGuests: 5,
     features: ["Free WiFi", "TV", "AC", "Multiple Beds", "Spacious"],
-    image: "images/Family Room.jpg",
+    image: "images/FamilyRoom.jpg",
   },
 ];
 
