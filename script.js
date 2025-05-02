@@ -7,7 +7,7 @@ const rooms = [
     price: 99,
     maxGuests: 2,
     features: ["Free WiFi", "TV", "AC", "Daily Housekeeping"],
-    image: "images/Deluxe Queen Room.jpg",
+    image: "images/DeluxeQueenRoom.jpg",
   },
   {
     id: 2,
