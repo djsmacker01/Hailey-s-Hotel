@@ -10,7 +10,6 @@
 </head>
 
 <body>
-    <!-- Header -->
     <header>
         <div class="header-container">
             <div class="logo">Hailey's <span>Hotel</span></div>
@@ -26,15 +25,12 @@
         </div>
     </header>
 
-    <!-- Page Title -->
     <section class="page-title">
         <h1>Contact Us</h1>
         <p>Have questions or need assistance? We're here to help!</p>
     </section>
 
-    <!-- Contact Section -->
     <div class="contact-section">
-        <!-- Contact Form -->
         <div class="contact-form-container">
             <h2>Send Us a Message</h2>
             <form class="contact-form" id="contactForm">
@@ -67,7 +63,6 @@
             </form>
         </div>
 
-        <!-- Contact Information -->
         <div class="contact-info">
             <h2>Contact Information</h2>
             <div class="info-item">
@@ -97,20 +92,15 @@
         </div>
     </div>
 
-   
-    <!-- Map Section -->
     <div class="map-container">
         <h2>Find Us</h2>
         <div class="map" id="map">
-            <!-- In a real application, you would embed a Google Map or similar here -->
             <p>Map would be displayed here</p>
         </div>
     </div>
 
-    <!-- Toast Notification -->
     <div id="toast" class="toast"></div>
 
-    <!-- Footer -->
     <footer>
         <div class="footer-container">
             <div class="footer-section">
@@ -156,25 +146,20 @@
     </footer>
 
     <script>
-        // Initialize and add the map
         function initMap() {
-            // The location of the hotel (replace with actual coordinates)
-            const hotelLocation = { lat: 40.7128, lng: -74.0060 }; // This is NYC, replace with your hotel's location
+            const hotelLocation = { lat: 40.7128, lng: -74.0060 };
 
-            // The map, centered at the hotel location
             const map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 15,
                 center: hotelLocation,
             });
 
-            // The marker, positioned at the hotel location
             const marker = new google.maps.Marker({
                 position: hotelLocation,
                 map: map,
                 title: "Hailey's Hotel"
             });
 
-            // Optional: Add an info window
             const infowindow = new google.maps.InfoWindow({
                 content: "<strong>Hailey's Hotel</strong><br>1234 Hotel Drive<br>Anytown, US 12345"
             });
@@ -184,8 +169,7 @@
             });
         }
     </script>
-    
-    <!-- Load the Google Maps JavaScript API with your API key -->
+
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
     </script>
 </body>

@@ -389,7 +389,7 @@ Planned future enhancements include:
 
 | Metric           | Score (%) | Notes                          |
 |------------------|-----------|--------------------------------|
-| Performance      |           | From Lighthouse                |
+| Performance      |    97       | From Lighthouse                |
 | Accessibility    |           |                                |
 | Best Practices   |           |                                |
 | SEO              |           |                                |
@@ -420,6 +420,138 @@ Attach screenshots of Lighthouse scores or any issues found.
 Mobile version Scores
 ![Mobile View](images/mobile%20score.png)
 
+
+✅ Final Manual Testing Process on Deployed Site
+🌐 Deployed Site URL
+✅ Final Manual Testing Process on Deployed Site
+🌐 Deployed Site URL
+https://djsmacker01.github.io/Hailey-s-Hotel/
+
+🔄 Retesting Scope
+Repeat the testing on the live deployed site, following your original manual testing plan:
+
+🧪 1. Functionality Testing
+Contact/Booking Form:
+
+✅ Form submits correctly
+
+✅ Validation works on empty fields
+
+Call-to-Action Buttons:
+
+✅ “Book Now” buttons navigate properly
+
+Navigation:
+
+✅ All menu links work across pages
+
+📸 Screenshot:
+
+markdown
+Copy
+Edit
+![Booking Form Works](images/booking-form-submit.png)
+🔗 2. Broken Link Testing
+✅ All internal links work
+
+✅ No 404s found
+
+✅ External links open in new tabs
+
+✅ Anchor links scroll to correct sections
+
+
+📱 3. Responsiveness Testing
+✅ Mobile layout adjusts properly (tested on iPhone 12 view)
+
+✅ Tablet layout appears consistent (tested on iPad)
+
+✅ Images scale correctly
+
+✅ Navigation menu collapses into hamburger menu on mobile
+
+
+👤 4. Usability Testing
+✅ Users can easily find contact, rooms, and booking sections
+
+✅ Content is readable and well structured
+
+✅ Navigation is intuitive and fast
+
+
+
+✅ Final Deployment Testing Results
+We retested the deployed version of the site at:
+
+🔗 Live Site
+
+Test Type	Result
+Functionality	✅ Pass
+Broken Links	✅ Pass
+Responsiveness	✅ Pass
+Usability	✅ Pass
+
+🔄 Retesting Scope
+Repeat the testing on the live deployed site, following your original manual testing plan:
+
+🧪 1. Functionality Testing
+Contact/Booking Form:
+
+✅ Form submits correctly
+
+✅ Validation works on empty fields
+
+Call-to-Action Buttons:
+
+✅ “Book Now” buttons navigate properly
+
+Navigation:
+
+✅ All menu links work across pages
+
+📸 Screenshot:
+
+markdown
+Copy
+Edit
+![Booking Form Works](images/booking-form-submit.png)
+🔗 2. Broken Link Testing
+✅ All internal links work
+
+✅ No 404s found
+
+✅ External links open in new tabs
+
+✅ Anchor links scroll to correct sections
+
+
+📱 3. Responsiveness Testing
+✅ Mobile layout adjusts properly (tested on iPhone 12 view)
+
+✅ Tablet layout appears consistent (tested on iPad)
+
+✅ Images scale correctly
+
+✅ Navigation menu collapses into hamburger menu on mobile
+
+
+👤 4. Usability Testing
+✅ Users can easily find contact, rooms, and booking sections
+
+✅ Content is readable and well structured
+
+
+
+✅ Final Deployment Testing Results
+We retested the deployed version of the site at:
+
+🔗 Live Site
+
+Test Type	Result
+Functionality	✅ Pass
+Broken Links	✅ Pass
+Responsiveness	✅ Pass
+Usability	✅ Pass
 
 
 
