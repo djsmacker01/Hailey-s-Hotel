@@ -417,6 +417,10 @@ Planned future enhancements include:
 
 Attach screenshots of Lighthouse scores or any issues found.
 ![Mobile View](images/lighthouse-html.png)
+Mobile Scores
+![Mobile View](images/mobile%20score.png)
+
+
 
 
 ---
