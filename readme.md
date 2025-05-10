@@ -343,4 +343,90 @@ Planned future enhancements include:
 
 ---
 
+
+# 🧪 Final Website Testing Report
+
+## ✅ General Info
+- **Project Name:** [Hailey's Hotel]
+- **Deployed URL:** [https://haileyhotel.netlify.app/]
+- **Date of Testing:** [28/04/2025]
+
+---
+
+## 🔍 1. Manual Functional Testing
+
+| Feature           | Test Description                            | Result (Pass/Fail) | Notes                |
+|-------------------|----------------------------------------------|--------------------|----------------------|
+| Navigation        | All links and menus work                     | Pass               |                      |
+| Forms             | Submits data and handles errors              | Pass               |                      |
+| Modals/Popups     | Open/close and behave correctly              | Pass               |                      |
+| Responsive Design | Works on mobile, tablet, and desktop         | Pass               |                      |
+| Animations        | Transitions/animations work without glitch   | Pass               |                      |
+
+---
+
+## 🌐 2. Cross-Browser Testing
+
+| Browser   | Tested Version | Result (Pass/Fail) | Notes                |
+|-----------|----------------|--------------------|----------------------|
+| Chrome    |                | Pass               |                      |
+| Firefox   |                | Pass               |                      |
+| Safari    |                | Pass               |                      |
+| Edge      |                | Pass               |                      |
+
+---
+
+## ♿ 3. Accessibility Testing
+
+| Tool Used        | Issue Found | Fix Applied | Notes              |
+|------------------|-------------|-------------|--------------------|
+| WAVE             | No          | N/A         |                    |
+| Lighthouse Audit | Yes         | Yes         | Alt text missing   |
+
+---
+
+## 🚀 4. Performance Testing
+
+| Metric           | Score (%) | Notes                          |
+|------------------|-----------|--------------------------------|
+| Performance      |           | From Lighthouse                |
+| Accessibility    |           |                                |
+| Best Practices   |           |                                |
+| SEO              |           |                                |
+
+---
+
+## 🛠️ 5. Code Validation
+
+| Validator        | Errors Found | Fixed | Notes                 |
+|------------------|--------------|-------|------------------------|
+| HTML Validator   | No           | N/A   |                        |
+| CSS Validator    | No           | N/A   |                        |
+
+---
+
+## 📌 Final Checks
+
+- [x] All commented-out code removed
+- [x] Site loads correctly on GitHub Pages
+- [x] All links, styles, and scripts functional
+
+---
+
+## 📸 Screenshots (Optional)
+
+Attach screenshots of Lighthouse scores or any issues found.
+![Mobile View](images/lighthouse-html.png)
+
+
+---
+
+## 📝 Summary
+
+Everything functions as expected across devices and browsers. Minor issues were fixed during the testing process.
+
+
+
+
+
 © 2025 Hailey's Hotel. All Rights Reserved.
