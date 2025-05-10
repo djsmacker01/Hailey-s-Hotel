@@ -261,22 +261,69 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Toast notification */
+/* Toast Notification */
 .toast {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #4CAF50;
+    padding: 16px 24px;
+    border-radius: 8px;
+    background-color: #1a3a5f;
     color: white;
-    padding: 16px;
-    border-radius: 4px;
-    z-index: 101;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(100px);
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: 1000;
+    max-width: 90%;
+    width: 350px;
 }
 
 .toast.show {
+    transform: translateY(0);
     opacity: 1;
+}
+
+.toast.success {
+    background-color: #2ecc71;
+}
+
+.toast.error {
+    background-color: #e74c3c;
+}
+
+.toast.loading {
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.toast.loading::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive Toast */
+@media (max-width: 480px) {
+    .toast {
+        left: 20px;
+        right: 20px;
+        width: auto;
+        text-align: center;
+    }
 }
 
 /* Responsive adjustments */
