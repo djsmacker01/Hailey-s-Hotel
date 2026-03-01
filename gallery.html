@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hailey's Hotel - Gallery</title>
-    <link rel="stylesheet" href="/Gallery/style.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
 </head>
+
 <body>
-    <!-- Header -->
     <header>
         <div class="header-container">
             <div class="logo">Hailey's <span>Hotel</span></div>
             <button class="mobile-nav-toggle" aria-label="Toggle navigation">☰</button>
             <nav>
                 <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/Rooms/room.html">Rooms</a></li>
-                    <li><a href="/Amenities/index.html">Amenities</a></li>
-                    <li><a href="/Gallery/index.html" class="active">Gallery</a></li>
-                    <li><a href="/Contact/contact.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    
-    <!-- Hero Section -->
+
     <section class="hero">
         <h1>Photo Gallery</h1>
         <p>Experience our hotel through our carefully curated collection of images</p>
     </section>
-    
-    <!-- Gallery Content -->
+
     <div class="gallery-container">
         <h2 class="section-title">Explore Our Hotel</h2>
-    
+
         <div class="gallery-categories">
             <button class="category-btn active" data-category="all">All Photos</button>
             <button class="category-btn" data-category="rooms">Rooms & Suites</button>
@@ -41,95 +40,90 @@
             <button class="category-btn" data-category="amenities">Amenities</button>
             <button class="category-btn" data-category="events">Events & Meetings</button>
         </div>
-    
+
         <div class="gallery-grid" id="galleryGrid">
-            <!-- Rooms & Suites -->
             <div class="gallery-item" data-category="rooms">
-                <img class="gallery-img" src="/images/standardroom.jpg" alt="Standard Room">
+                <img class="gallery-img" src="assets/images/standardroom.jpg" alt="Standard Room">
                 <div class="gallery-caption">Standard Double Room</div>
             </div>
             <div class="gallery-item" data-category="rooms">
-                <img class="gallery-img" src="/images/DeluxeQueenRoom.jpg" alt="Deluxe Room">
+                <img class="gallery-img" src="assets/images/DeluxeQueenRoom.jpg" alt="Deluxe Room">
                 <div class="gallery-caption">Deluxe Queen Room</div>
             </div>
             <div class="gallery-item" data-category="rooms">
-                <img class="gallery-img" src="/images/Executive-Suite.jpg" alt="Executive Suite">
+                <img class="gallery-img" src="assets/images/Executive-Suite.jpg" alt="Executive Suite">
                 <div class="gallery-caption">Executive Suite</div>
             </div>
             <div class="gallery-item" data-category="rooms">
-                <img class="gallery-img" src="/images/FamilyRoom.jpg" alt="Family Room">
+                <img class="gallery-img" src="assets/images/FamilyRoom.jpg" alt="Family Room">
                 <div class="gallery-caption">Family Room</div>
             </div>
             <div class="gallery-item" data-category="rooms">
-                <img class="gallery-img" src="/images/luxurybathroom.jpg" alt="Bathroom">
+                <img class="gallery-img" src="assets/images/luxurybathroom.jpg" alt="Bathroom">
                 <div class="gallery-caption">Luxury Bathroom</div>
             </div>
             <div class="gallery-item" data-category="rooms">
-                <img class="gallery-img" src="/images/room_with_view.jpg" alt="Room View">
+                <img class="gallery-img" src="assets/images/room_with_view.jpg" alt="Room View">
                 <div class="gallery-caption">Room with a View</div>
             </div>
-    
-            <!-- Dining -->
+
             <div class="gallery-item" data-category="dining">
-                <img class="gallery-img" src="/images/returant.jpeg" alt="Restaurant">
+                <img class="gallery-img" src="assets/images/returant.jpeg" alt="Restaurant">
                 <div class="gallery-caption">The Coastal Restaurant</div>
             </div>
             <div class="gallery-item" data-category="dining">
-                <img class="gallery-img" src="/images/buffet.jpg" alt="Breakfast Buffet">
+                <img class="gallery-img" src="assets/images/buffet.jpg" alt="Breakfast Buffet">
                 <div class="gallery-caption">Breakfast Buffet</div>
             </div>
             <div class="gallery-item" data-category="dining">
-                <img class="gallery-img" src="/images/banner-lobbycafe.jpg" alt="Lobby Café">
+                <img class="gallery-img" src="assets/images/banner-lobbycafe.jpg" alt="Lobby Café">
                 <div class="gallery-caption">Lobby Café & Bar</div>
             </div>
             <div class="gallery-item" data-category="dining">
-                <img class="gallery-img" src="/images/Private-Dining_.jpg" alt="Private Dining">
+                <img class="gallery-img" src="assets/images/Private-Dining_.jpg" alt="Private Dining">
                 <div class="gallery-caption">Private Dining Room</div>
             </div>
-    
-            <!-- Amenities -->
+
             <div class="gallery-item" data-category="amenities">
-                <img class="gallery-img" src="/images/pool.jpg" alt="Pool">
+                <img class="gallery-img" src="assets/images/pool.jpg" alt="Pool">
                 <div class="gallery-caption">Outdoor Pool</div>
             </div>
             <div class="gallery-item" data-category="amenities">
-                <img class="gallery-img" src="/images/fitnesscenter.jpg" alt="Gym">
+                <img class="gallery-img" src="assets/images/fitnesscenter.jpg" alt="Gym">
                 <div class="gallery-caption">Fitness Center</div>
             </div>
             <div class="gallery-item" data-category="amenities">
-                <img class="gallery-img" src="/images/spa.jpg" alt="Spa">
+                <img class="gallery-img" src="assets/images/spa.jpg" alt="Spa">
                 <div class="gallery-caption">Spa & Wellness</div>
             </div>
             <div class="gallery-item" data-category="amenities">
-                <img class="gallery-img" src="/images/HotelLobby.jpg" alt="Lobby">
+                <img class="gallery-img" src="assets/images/HotelLobby.jpg" alt="Lobby">
                 <div class="gallery-caption">Hotel Lobby</div>
             </div>
-    
-            <!-- Events & Meetings -->
+
             <div class="gallery-item" data-category="events">
-                <img class="gallery-img" src="/images/MeetingRoom.jpg" alt="Meeting Room">
+                <img class="gallery-img" src="assets/images/MeetingRoom.jpg" alt="Meeting Room">
                 <div class="gallery-caption">Conference Room</div>
             </div>
             <div class="gallery-item" data-category="events">
-                <img class="gallery-img" src="/images/Wedding.jpg" alt="Wedding Venue">
+                <img class="gallery-img" src="assets/images/Wedding.jpg" alt="Wedding Venue">
                 <div class="gallery-caption">Wedding Reception</div>
             </div>
             <div class="gallery-item" data-category="events">
-                <img class="gallery-img" src="/images/grand.png" alt="Banquet Hall">
+                <img class="gallery-img" src="assets/images/grand.png" alt="Banquet Hall">
                 <div class="gallery-caption">Grand Banquet Hall</div>
             </div>
             <div class="gallery-item" data-category="events">
-                <img class="gallery-img" src="/api/placeholder/600/400" alt="Outdoor Event">
+                <img class="gallery-img" src="assets/images/BanquetHall.jpg" alt="Outdoor Event">
                 <div class="gallery-caption">Outdoor Event Space</div>
             </div>
         </div>
-    
+
         <div class="book-now-container">
             <a href="index.html#roomResults" class="book-now-btn">Book Your Stay Now</a>
         </div>
     </div>
-    
-    <!-- Modal -->
+
     <div id="imageModal" class="modal">
         <span class="close-modal">&times;</span>
         <img class="modal-content" id="modalImage" src="#" alt="Modal Image">
@@ -139,8 +133,7 @@
             <button id="nextImage">&#10095;</button>
         </div>
     </div>
-    
-    <!-- Footer -->
+
     <footer id="contact">
         <div class="footer-container">
             <div>
@@ -155,19 +148,19 @@
             <div>
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../Rooms/room.html">Rooms</a></li>
-                    <li><a href="../Amenities/index.html">Amenities</a></li>
-                    <li><a href="index.html">Gallery</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="amenities.html">Amenities</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </div>
             <div>
                 <h3>Follow Us</h3>
                 <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                    <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                    <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                 </ul>
             </div>
             <div>
@@ -185,6 +178,8 @@
             <p>&copy; 2025 Hailey's Hotel. All rights reserved.</p>
         </div>
     </footer>
-<script src="/Gallery/script.js"></script>
+
+    <script src="assets/js/gallery.js"></script>
 </body>
+
 </html>

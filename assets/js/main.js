@@ -7,7 +7,7 @@ const rooms = [
     price: 99,
     maxGuests: 2,
     features: ["Free WiFi", "TV", "AC", "Daily Housekeeping"],
-    image: "images/DeluxeQueenRoom.jpg",
+    image: "assets/images/DeluxeQueenRoom.jpg",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const rooms = [
     price: 149,
     maxGuests: 2,
     features: ["Free WiFi", "TV", "AC", "Mini Bar", "Coffee Machine"],
-    image: "images/doublebed.jpg",
+    image: "assets/images/doublebed.jpg",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const rooms = [
       "Coffee Machine",
       "Separate Living Area",
     ],
-    image: "images/Executive-Suite.jpg",
+    image: "assets/images/Executive-Suite.jpg",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const rooms = [
     price: 199,
     maxGuests: 5,
     features: ["Free WiFi", "TV", "AC", "Multiple Beds", "Spacious"],
-    image: "images/FamilyRoom.jpg",
+    image: "assets/images/FamilyRoom.jpg",
   },
 ];
 
