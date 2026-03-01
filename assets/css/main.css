@@ -73,11 +73,14 @@
      color: #f8c15c;
  }
 
+ nav ul li a.active {
+     color: #f8c15c;
+     border-bottom: 2px solid #f8c15c;
+ }
+
  /* Hero Section */
  .hero {
-     background-image: url('../images/Hailey.jpeg');
-
-     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/500'); */
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Hailey.jpeg');
      background-size: cover;
      background-position: center;
      height: 400px;
