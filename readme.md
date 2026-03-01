@@ -123,7 +123,7 @@ haileys-hotel/
 │   ├── script.js        # Javascript functionality
 
 
-│   
+│
           # Main homepage
 ├── rooms.html           # Room listings and details
 ├── amenities.html       # Hotel amenities and services
@@ -138,18 +138,18 @@ haileys-hotel/
 ├── booking.html         # Reservation system
 ├── contact.html         # Contact information and form
 │
-├── images/              
-│   ├── Deluxe Queen Room.jpg            
-│   ├── double bed.jpg           
-│   ├── Executive-Suite.jpg       
-│   ├── Family Room.jpg         
-│   └── Hailey.jpeg          
+├── images/
+│   ├── Deluxe Queen Room.jpg
+│   ├── double bed.jpg
+│   ├── Executive-Suite.jpg
+│   ├── Family Room.jpg
+│   └── Hailey.jpeg
 │
 └── README.md            # Project documentation
 ```
 <!-- ![Hotel Project Structure](assets/Hotel.drawio) -->
-![Structure Diagram](assets/Hailey's%20Hotel.svg)  
-👉 [View editable version](https://viewer.diagrams.net/?url=https://raw.githubusercontent.com/...)
+![Structure Diagram](assets/Hailey's%20Hotel.svg)
+[View editable version](https://viewer.diagrams.net/?url=https://raw.githubusercontent.com/...)
 
 
 ## Implementation Screenshots
@@ -214,12 +214,6 @@ CSS <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener norefer
 ![Mobile View](images/emailValidation.png)
 
 
-
-
-
-
-
-
 ## Technologies Used
 
 
@@ -242,7 +236,7 @@ CSS <a href="https://validator.w3.org/nu/" target="_blank" rel="noopener norefer
 
 ### CSS Reset
 ```css
-/* 
+/*
  * normalize.css v8.0.1
  * Source: https://necolas.github.io/normalize.css/
  * License: MIT License
@@ -344,16 +338,16 @@ Planned future enhancements include:
 ---
 
 
-# 🧪 Final Website Testing Report
+#  Final Website Testing Report
 
-## ✅ General Info
+##  General Info
 - **Project Name:** [Hailey's Hotel]
 - **Deployed URL:** [https://haileyhotel.netlify.app/]
 - **Date of Testing:** [28/04/2025]
 
 ---
 
-## 🔍 1. Manual Functional Testing
+## 1. Manual Functional Testing
 
 | Feature           | Test Description                            | Result (Pass/Fail) | Notes                |
 |-------------------|----------------------------------------------|--------------------|----------------------|
@@ -365,7 +359,7 @@ Planned future enhancements include:
 
 ---
 
-## 🌐 2. Cross-Browser Testing
+## 2. Cross-Browser Testing
 
 | Browser   | Tested Version | Result (Pass/Fail) | Notes                |
 |-----------|----------------|--------------------|----------------------|
@@ -376,7 +370,7 @@ Planned future enhancements include:
 
 ---
 
-## ♿ 3. Accessibility Testing
+## 3. Accessibility Testing
 
 | Tool Used        | Issue Found | Fix Applied | Notes              |
 |------------------|-------------|-------------|--------------------|
@@ -385,7 +379,7 @@ Planned future enhancements include:
 
 ---
 
-## 🚀 4. Performance Testing
+## 4. Performance Testing
 
 | Metric           | Score (%) | Notes                          |
 |------------------|-----------|--------------------------------|
@@ -396,7 +390,7 @@ Planned future enhancements include:
 
 ---
 
-## 🛠️ 5. Code Validation
+## 5. Code Validation
 
 | Validator        | Errors Found | Fixed | Notes                 |
 |------------------|--------------|-------|------------------------|
@@ -405,7 +399,7 @@ Planned future enhancements include:
 
 ---
 
-## 📌 Final Checks
+## Final Checks
 
 - [x] All commented-out code removed
 - [x] Site loads correctly on GitHub Pages
@@ -413,7 +407,7 @@ Planned future enhancements include:
 
 ---
 
-## 📸 Screenshots (Optional)
+## Screenshots
 
 Attach screenshots of Lighthouse scores or any issues found.
 ![Mobile View](images/lighthouse-html.png)
@@ -421,146 +415,144 @@ Mobile version Scores
 ![Mobile View](images/mobile%20score.png)
 
 
-✅ Final Manual Testing Process on Deployed Site
-🌐 Deployed Site URL
-✅ Final Manual Testing Process on Deployed Site
-🌐 Deployed Site URL
+Final Manual Testing Process on Deployed Site
+Deployed Site URL
+Final Manual Testing Process on Deployed Site
+Deployed Site URL
 https://djsmacker01.github.io/Hailey-s-Hotel/
 
-🔄 Retesting Scope
+Retesting Scope
 Repeat the testing on the live deployed site, following your original manual testing plan:
 
-🧪 1. Functionality Testing
+1. Functionality Testing
 Contact/Booking Form:
 
-✅ Form submits correctly
+Form submits correctly
 
-✅ Validation works on empty fields
+Validation works on empty fields
 
 Call-to-Action Buttons:
 
-✅ “Book Now” buttons navigate properly
+"Book Now" buttons navigate properly
 
 Navigation:
 
-✅ All menu links work across pages
+All menu links work across pages
 
-📸 Screenshot:
+Screenshot:
 
 markdown
 Copy
 Edit
 ![Booking Form Works](images/booking-form-submit.png)
-🔗 2. Broken Link Testing
-✅ All internal links work
+2. Broken Link Testing
+All internal links work
 
-✅ No 404s found
+No 404s found
 
-✅ External links open in new tabs
+External links open in new tabs
 
-✅ Anchor links scroll to correct sections
-
-
-📱 3. Responsiveness Testing
-✅ Mobile layout adjusts properly (tested on iPhone 12 view)
-
-✅ Tablet layout appears consistent (tested on iPad)
-
-✅ Images scale correctly
-
-✅ Navigation menu collapses into hamburger menu on mobile
+Anchor links scroll to correct sections
 
 
-👤 4. Usability Testing
-✅ Users can easily find contact, rooms, and booking sections
+3. Responsiveness Testing
+Mobile layout adjusts properly (tested on iPhone 12 view)
 
-✅ Content is readable and well structured
+Tablet layout appears consistent (tested on iPad)
 
-✅ Navigation is intuitive and fast
+Images scale correctly
+
+Navigation menu collapses into hamburger menu on mobile
+
+
+4. Usability Testing
+Users can easily find contact, rooms, and booking sections
+
+Content is readable and well structured
+
+Navigation is intuitive and fast
 
 
 
-✅ Final Deployment Testing Results
+Final Deployment Testing Results
 We retested the deployed version of the site at:
 
-🔗 Live Site
+Live Site
 
 Test Type	Result
-Functionality	✅ Pass
-Broken Links	✅ Pass
-Responsiveness	✅ Pass
-Usability	✅ Pass
+Functionality	Pass
+Broken Links	Pass
+Responsiveness	Pass
+Usability	Pass
 
-🔄 Retesting Scope
+Retesting Scope
 Repeat the testing on the live deployed site, following your original manual testing plan:
 
-🧪 1. Functionality Testing
+1. Functionality Testing
 Contact/Booking Form:
 
-✅ Form submits correctly
+Form submits correctly
 
-✅ Validation works on empty fields
+Validation works on empty fields
 
 Call-to-Action Buttons:
 
-✅ “Book Now” buttons navigate properly
+"Book Now" buttons navigate properly
 
 Navigation:
 
-✅ All menu links work across pages
+All menu links work across pages
 
-📸 Screenshot:
+Screenshot:
 
 markdown
 Copy
 Edit
 ![Booking Form Works](images/booking-form-submit.png)
-🔗 2. Broken Link Testing
-✅ All internal links work
+2. Broken Link Testing
+All internal links work
 
-✅ No 404s found
+No 404s found
 
-✅ External links open in new tabs
+External links open in new tabs
 
-✅ Anchor links scroll to correct sections
-
-
-📱 3. Responsiveness Testing
-✅ Mobile layout adjusts properly (tested on iPhone 12 view)
-
-✅ Tablet layout appears consistent (tested on iPad)
-
-✅ Images scale correctly
-
-✅ Navigation menu collapses into hamburger menu on mobile
+Anchor links scroll to correct sections
 
 
-👤 4. Usability Testing
-✅ Users can easily find contact, rooms, and booking sections
+3. Responsiveness Testing
+Mobile layout adjusts properly (tested on iPhone 12 view)
 
-✅ Content is readable and well structured
+Tablet layout appears consistent (tested on iPad)
+
+Images scale correctly
+
+Navigation menu collapses into hamburger menu on mobile
+
+4. Usability Testing
+Users can easily find contact, rooms, and booking sections
+
+Content is readable and well structured
 
 
 
-✅ Final Deployment Testing Results
+Final Deployment Testing Results
 We retested the deployed version of the site at:
 
-🔗 Live Site
+Live Site
 
 Test Type	Result
-Functionality	✅ Pass
-Broken Links	✅ Pass
-Responsiveness	✅ Pass
-Usability	✅ Pass
+Functionality	Pass
+Broken Links	Pass
+Responsiveness	Pass
+Usability	Pass
 
 
 
 ---
 
-## 📝 Summary
+## Summary
 
 Everything functions as expected across devices and browsers. Minor issues were fixed during the testing process.
-
 
 
 
